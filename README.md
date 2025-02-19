@@ -12,7 +12,7 @@ Este projeto foi desenvolvido como parte da disciplina de Projeto de Software, f
 ## 🛠 Tecnologias Utilizadas
 
 - Git
-- GitHub (ou outra plataforma de hospedagem de repositórios)
+- GitHub 
 
 
 ## 🚀 Como Executar
