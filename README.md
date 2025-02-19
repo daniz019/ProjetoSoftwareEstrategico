@@ -27,10 +27,6 @@ Este projeto foi desenvolvido como parte da disciplina de Projeto de Software, f
 - Compreensão aprofundada dos benefícios da gestão de configuração
 - Reflexão sobre os impactos em diferentes áreas da TI
 
-## 🤝 Contribuições
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
-
 ## 📄 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
