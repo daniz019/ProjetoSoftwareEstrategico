@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto de Software - Anhanguera</title>
+    <style>
+        /* Global CSS Variables - Color Palette */
+        :root {
+            --orange-primary: #FF6B00;
+            --orange-secondary: #FF8534;
+            --dark-gray: #333333;
+            --light-gray: #f4f4f4;
+        }
+
+        /* Base Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--dark-gray);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: var(--light-gray);
+        }
+
+        /* Logo Styles */
+        .logo-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .logo-container img {
+            max-width: 300px;
+            height: auto;
+        }
+
+        /* Header Component - Main title and description */
+        header {
+            background: linear-gradient(135deg, var(--orange-primary), var(--orange-secondary));
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        /* Typography Styles */
+        h1 {
+            margin-bottom: 0.5rem;
+            font-size: 2.2em;
+        }
+
+        h2 {
+            color: var(--orange-primary);
+            border-bottom: 2px solid var(--orange-secondary);
+            padding-bottom: 5px;
+            margin-top: 1.5em;
+        }
+
+        /* Content Section Component 
+         * Used for main content blocks with hover animation
+         */
+        .content-section {
+            background-color: white;
+            margin: 20px 0;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        /* Hover animation for better user interaction */
+        .content-section:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* List Styles */
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+
+        /* Footer Component */
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            color: var(--dark-gray);
+            border-top: 2px solid var(--orange-secondary);
+        }
+    </style>
+</head>
+<body>
+    <!-- Institution Logo -->
+    <div class="logo-container">
+        <img src="https://anhanguera.s3.amazonaws.com/wp-content/uploads/2019/10/logo-anhanguera.png" 
+             alt="Logo Anhanguera"
+             loading="eager">
+    </div>
+
+    <!-- Main Header -->
+    <header>
+        <h1>Projeto de Software</h1>
+        <p>Gestão de Configuração</p>
+    </header>
+
+    <!-- Project Objectives Section -->
+    <div class="content-section">
+        <h2>Objetivos</h2>
+        <ul>
+            <li>Compreender ferramentas de gestão de configuração</li>
+            <li>Criar repositório de artefatos em nuvem</li>
+            <li>Analisar benefícios para times de desenvolvimento</li>
+            <li>Refletir sobre impactos em Estratégia, Governança, ITIL, COBIT e ESG</li>
+        </ul>
+    </div>
+
+    <!-- Technologies Section -->
+    <div class="content-section">
+        <h2>Tecnologias Utilizadas</h2>
+        <ul>
+            <li>Git</li>
+            <li>GitHub</li>
+        </ul>
+    </div>
+
+    <!-- Results Section -->
+    <div class="content-section">
+        <h2>Resultados e Aprendizados</h2>
+        <ul>
+            <li>Criação de repositório de artefatos</li>
+            <li>Compreensão dos benefícios da gestão de configuração</li>
+            <li>Análise de impactos em diferentes áreas de TI</li>
+            <li>Experiência prática com ferramentas de versionamento</li>
+        </ul>
+    </div>
+
+    <!-- Footer with Author Information -->
+    <footer>
+        <p>Desenvolvido por Daniel Di Grandi 🧡 - Anhanguera</p>
+        <p>Disciplina de Projeto de Software</p>
+    </footer>
+</body>
+</html>
